@@ -3,40 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sutato Gold | Industrial SEO & B2B Domination</title>
-    
-    <meta name="description" content="Infrastruktur Dominasi Digital untuk B2B & Industri. Membangun otoritas pencarian Google secara elegan dan permanen.">
+    <title>Sutato Gold | VIP Industrial SEO & B2B Domination</title>
+    <meta name="description" content="Spesialis Dominasi Search Engine Sektor Industri & B2B Nasional. Membangun otoritas digital elegan dan permanen.">
     <link rel="canonical" href="https://sutato-gold.vercel.app/">
-    <meta name="robots" content="index, follow">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;900&display=swap" rel="stylesheet">
-
-    <script src="https://cdn.tailwindcss.com"></script>
-
+    
     <style>
         :root { --gold: #d4af37; --bg: #050508; }
-        body { font-family: 'Outfit', sans-serif; background-color: var(--bg); color: #fff; margin:0; }
+        body { 
+            margin: 0; padding: 0; background: var(--bg); color: #fff; 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif;
+            line-height: 1.5; overflow-x: hidden;
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
         
-        /* BORDER SINAR BERJALAN */
+        /* GPU Accelerated Neon Border */
         .neon-box {
-            position: relative; overflow: hidden; border-radius: 12px; padding: 2px;
-            background: rgba(212, 175, 55, 0.1);
+            position: relative; border-radius: 12px; padding: 2px; overflow: hidden;
+            background: rgba(212, 175, 55, 0.1); isolation: isolate;
         }
         .neon-box::before {
             content: ""; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%;
             background: conic-gradient(transparent, var(--gold), transparent 30%);
-            animation: rotate 4s linear infinite;
+            animation: r 4s linear infinite; z-index: -1;
         }
-        .inner-box { position: relative; z-index: 1; background: #0a0a0f; border-radius: 10px; padding: 2rem; }
-        @keyframes rotate { 100% { transform: rotate(360deg); } }
-
-        /* GLASS MORPH */
-        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(212, 175, 55, 0.1); }
+        @keyframes r { 100% { transform: rotate(360deg); } }
+        .inner { background: #0a0a0f; border-radius: 10px; padding: 2.5rem; position: relative; }
         
-        .fade-in { animation: fadeIn 1s ease-out forwards; }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        /* Luxury Glassmorphism */
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(212, 175, 55, 0.1); border-radius: 16px; padding: 2rem; }
+        
+        .gold-grad { background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 900; }
+        .nav { padding: 1.5rem 0; border-bottom: 1px solid rgba(255,255,255,0.05); display: flex; justify-content: space-between; align-items: center; }
+        .btn { display: inline-block; padding: 12px 30px; border-radius: 50px; font-weight: 700; text-decoration: none; font-size: 0.8rem; letter-spacing: 1px; transition: 0.3s; }
+        .btn-gold { background: var(--gold); color: #000; }
+        .btn-outline { border: 1px solid var(--gold); color: var(--gold); }
+        
+        /* Mobile Performance Fix */
+        @media (max-width: 768px) { h1 { font-size: 2.5rem !important; } .grid { grid-template-columns: 1fr !important; } }
     </style>
 
     <script type="application/ld+json">
@@ -45,81 +48,87 @@
       "@type": "ProfessionalService",
       "name": "Sutato Digital Gold",
       "url": "https://sutato-gold.vercel.app/",
+      "image": "https://ciledugpromo.biz.id/uploads/user/10905/jasa-seo-tangerang-terbaik-strategi-posting-1000-website-untuk-dominasi-pasar.png",
       "priceRange": "IDR 3.000.000 - 50.000.000",
-      "image": "https://ciledugpromo.biz.id/uploads/user/10905/jasa-seo-tangerang-terbaik-strategi-posting-1000-website-untuk-dominasi-pasar.png"
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Tangerang",
+        "addressCountry": "ID"
+      }
     }
     </script>
 </head>
 <body>
 
-    <nav class="p-6 border-b border-white/5 flex justify-between items-center sticky top-0 bg-[#050508]/80 backdrop-blur-md z-50">
-        <div class="text-xl font-black uppercase tracking-tighter">Sutato<span class="text-[#d4af37]">Gold</span></div>
-        <a href="https://wa.me/6285283212205" class="bg-[#d4af37] text-black px-5 py-2 rounded-full font-bold text-xs uppercase">Consultation</a>
+    <nav class="container nav">
+        <div style="font-weight: 900; font-size: 1.2rem; letter-spacing: -1px;">SUTATO<span style="color:var(--gold)">GOLD</span></div>
+        <a href="https://wa.me/6285283212205" class="btn btn-gold">CONSULTATION</a>
     </nav>
 
-    <main class="container mx-auto px-6 py-20">
-        <div class="text-center fade-in">
-            <span class="text-[#d4af37] text-[10px] font-black tracking-[0.3em] uppercase">B2B Search Domination</span>
-            <h1 class="text-5xl md:text-8xl font-black mt-6 mb-8 tracking-tighter leading-none">
-                OTORITAS <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#f4d03f]">DIGITAL MUTLAK</span>
-            </h1>
-            <p class="max-w-2xl mx-auto text-gray-400 text-lg md:text-xl mb-12">
-                Kami membangun ekosistem pencarian eksklusif untuk sektor industri dan korporasi. Aman, elegan, dan mendominasi tanpa kompromi.
-            </p>
+    <main class="container" style="padding: 60px 20px; text-align: center;">
+        <span style="color:var(--gold); font-size: 0.6rem; font-weight: 900; letter-spacing: 4px; text-transform: uppercase; border: 1px solid var(--gold); padding: 4px 12px; border-radius: 20px;">B2B Search Domination</span>
+        <h1 style="font-size: 4.5rem; font-weight: 900; margin: 30px 0; letter-spacing: -2px; line-height: 1;">OTORITAS <br> <span class="gold-grad">DIGITAL MUTLAK</span></h1>
+        <p style="color: #888; max-width: 600px; margin: 0 auto 40px; font-size: 1.1rem;">Membangun ekosistem pencarian eksklusif untuk sektor industri dan korporasi secara aman, elegan, dan mendominasi.</p>
+        
+        <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-bottom: 80px;">
+            <a href="#portfolio" class="btn btn-gold">EXPLORE PORTFOLIO</a>
+            <a href="#pricing" class="btn btn-outline">INVESTMENT TIER</a>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-20 fade-in" style="animation-delay: 0.2s;">
-            <div class="glass p-10 rounded-2xl">
-                <h3 class="text-[#d4af37] font-bold text-xs uppercase mb-4 tracking-widest">Sektor Maritim</h3>
-                <h2 class="text-2xl font-black mb-4">Dominasi Alat Pelabuhan Nasional</h2>
-                <p class="text-gray-500 text-sm mb-8 leading-relaxed">Keberhasilan implementasi SEO untuk distributor Rubber Airbag & Fender di Batam, Bitung, dan Samarinda.</p>
-                <a href="https://wa.me/6285283212205?text=Halo%20Master%20Sutato%2C%20saya%20tertarik%20melihat%20Case%20Study%20Maritim." class="text-[#d4af37] text-xs font-black border-b border-[#d4af37] pb-1 uppercase">Request Full Case Study</a>
+        <div id="portfolio" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; text-align: left; margin-bottom: 80px;" class="grid">
+            <div class="glass">
+                <p style="color:var(--gold); font-size: 0.7rem; font-weight: bold; letter-spacing: 2px;">SEKTOR MARITIM</p>
+                <h2 style="margin: 15px 0;">Dominasi Alat Pelabuhan Nasional</h2>
+                <p style="color:#777; font-size: 0.9rem;">Keberhasilan implementasi SEO instrumen pelabuhan di Batam, Bitung, dan Samarinda.</p>
+                <a href="https://wa.me/6285283212205?text=Akses%20Case%20Study%20Maritim" style="color:var(--gold); font-size: 0.8rem; font-weight: bold; text-decoration: none; display: block; margin-top: 20px;">REQUEST CASE STUDY &rarr;</a>
             </div>
-            <div class="glass p-10 rounded-2xl">
-                <h3 class="text-[#d4af37] font-bold text-xs uppercase mb-4 tracking-widest">Industri Berat</h3>
-                <h2 class="text-2xl font-black mb-4">Otoritas Konstruksi Baja & Harmonika</h2>
-                <p class="text-gray-500 text-sm mb-8 leading-relaxed">Mengunci pasar jasa konstruksi industri di wilayah Bekasi, Jatim, dan Jabodetabek secara permanen.</p>
-                <a href="https://wa.me/6285283212205?text=Halo%20Master%20Sutato%2C%20saya%20tertarik%20melihat%20Case%20Study%20Konstruksi." class="text-[#d4af37] text-xs font-black border-b border-[#d4af37] pb-1 uppercase">Request Full Case Study</a>
+            <div class="glass">
+                <p style="color:var(--gold); font-size: 0.7rem; font-weight: bold; letter-spacing: 2px;">INDUSTRI BERAT</p>
+                <h2 style="margin: 15px 0;">Otoritas Konstruksi Baja & Harmonika</h2>
+                <p style="color:#777; font-size: 0.9rem;">Mengunci pasar jasa konstruksi industri wilayah Bekasi, Jatim, dan Jabodetabek.</p>
+                <a href="https://wa.me/6285283212205?text=Akses%20Case%20Study%20Konstruksi" style="color:var(--gold); font-size: 0.8rem; font-weight: bold; text-decoration: none; display: block; margin-top: 20px;">REQUEST CASE STUDY &rarr;</a>
             </div>
         </div>
 
-        <div id="pricing" class="grid grid-cols-1 md:grid-cols-2 gap-10 my-20 fade-in" style="animation-delay: 0.4s;">
-            <div class="glass p-10 rounded-2xl">
-                <p class="text-xs font-black text-gray-500 uppercase tracking-widest mb-2">Regional Monopoly</p>
-                <div class="text-4xl font-black text-[#d4af37] mb-6 tracking-tighter">Rp 3Jt - 5Jt</div>
-                <ul class="text-xs text-gray-400 space-y-4 mb-10 uppercase font-bold tracking-wider">
-                    <li>- 15+ Artikel Spesialis Industri</li>
-                    <li>- Geo-Targeting Precision Mapping</li>
-                    <li>- White Hat Link Injection</li>
+        <div id="pricing" style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;" class="grid">
+            <div class="glass" style="text-align: left;">
+                <p style="color:#555; font-size: 0.8rem; font-weight: 900;">REGIONAL MONOPOLY</p>
+                <div style="font-size: 2.5rem; font-weight: 900; margin: 10px 0;">3Jt - 5Jt</div>
+                <ul style="padding: 0; list-style: none; font-size: 0.8rem; color: #888; margin: 25px 0;">
+                    <li style="margin-bottom: 8px;">&bull; 15+ Artikel Spesialis Industri</li>
+                    <li style="margin-bottom: 8px;">&bull; Geo-Targeting Precision Mapping</li>
+                    <li>&bull; White Hat Link Injection</li>
                 </ul>
-                <a href="https://wa.me/6285283212205?text=Paket%20Regional%20Monopoly" class="block w-full py-4 text-center border border-[#d4af37] text-[#d4af37] font-black text-[10px] tracking-widest uppercase">Secure Slot</a>
+                <a href="https://wa.me/6285283212205?text=Paket%20Regional%2Monopoly" class="btn btn-outline" style="width: 100%; box-sizing: border-box; text-align: center;">SECURE SLOT</a>
             </div>
-            
             <div class="neon-box">
-                <div class="inner-box">
-                    <p class="text-xs font-black text-[#d4af37] uppercase tracking-widest mb-2">National Authority</p>
-                    <div class="text-4xl font-black text-white mb-6 tracking-tighter italic">Custom Retainer</div>
-                    <p class="text-xs text-gray-500 mb-8 leading-relaxed font-bold uppercase tracking-wider">
-                        Full infrastructure build & dedicated strategic consultant untuk dominasi pasar nasional skala korporasi.
-                    </p>
-                    <a href="https://wa.me/6285283212205?text=Paket%20National%20Authority" class="block w-full py-4 text-center bg-[#d4af37] text-black font-black text-[10px] tracking-widest uppercase">Request Consultation</a>
+                <div class="inner" style="text-align: left;">
+                    <p style="color:var(--gold); font-size: 0.8rem; font-weight: 900;">NATIONAL AUTHORITY</p>
+                    <div style="font-size: 2.5rem; font-weight: 900; margin: 10px 0;">RETAINER</div>
+                    <p style="font-size: 0.8rem; color: #666; margin-bottom: 25px;">Full infrastructure build & dedicated consultant untuk dominasi pasar nasional skala korporasi.</p>
+                    <a href="https://wa.me/6285283212205?text=Paket%20National%20Authority" class="btn btn-gold" style="width: 100%; box-sizing: border-box; text-align: center;">CONSULTATION</a>
                 </div>
             </div>
         </div>
     </main>
 
-    <footer class="py-20 bg-black text-center border-t border-white/5">
-        <div class="text-lg font-black italic mb-4 uppercase tracking-tighter">Sutato<span class="text-[#d4af37]">Gold</span></div>
-        <p class="text-[9px] text-gray-600 uppercase tracking-[0.4em] mb-4">&copy; 2026 Sutato Digital Gold. Built for Dominance.</p>
+    <footer style="padding: 100px 0 50px; border-top: 1px solid rgba(255,255,255,0.05); text-align: center;">
+        <div style="font-weight: 900; letter-spacing: -1px; margin-bottom: 20px;">SUTATO<span style="color:var(--gold)">GOLD</span></div>
+        <p style="font-size: 0.7rem; color: #444; margin-bottom: 30px; letter-spacing: 2px;">BUILT FOR INDUSTRIAL DOMINANCE &copy; 2026</p>
         
-        <div style="font-size:1px; color:#000; opacity:0.01; user-select:none;">
-            Sutato Gold melayani jasa artikel seo b2b jakarta, tangerang, bekasi, batam, bitung, samarinda. Industri: Rubber Airbag, Konstruksi Baja, Pintu Harmonika, Kayu Ulin PIK.
+        <div style="font-size: 0.8rem; color: #666;">
+            Partner of: 
+            <a href="https://sutato.biz.id" target="_blank" style="color:#888; text-decoration: none; margin: 0 10px;">sutato.biz.id</a> | 
+            <a href="https://ciledugpromo.biz.id" target="_blank" style="color:#888; text-decoration: none; margin: 0 10px;">ciledugpromo.biz.id</a>
+        </div>
+
+        <div style="font-size:1px; color:var(--bg); opacity:0.01; user-select:none;">
+            Jasa Artikel SEO B2B Jakarta, Bogor, Depok, Tangerang, Bekasi. Supplier Kayu Ulin Kalimantan, Decking Ulin Jakarta Utara[cite: 3, 4].
         </div>
     </footer>
 
-    <a href="https://wa.me/6285283212205" class="fixed bottom-6 right-6 bg-[#25D366] p-4 rounded-full z-[100] shadow-2xl">
-        <svg class="w-6 h-6 fill-white" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2z"/></svg>
+    <a href="https://wa.me/6285283212205" style="position: fixed; bottom: 20px; right: 20px; background: #25D366; padding: 15px; border-radius: 50%; box-shadow: 0 10px 20px rgba(0,0,0,0.5); z-index: 100;">
+        <svg width="24" height="24" fill="#fff" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2z"/></svg>
     </a>
-
 </body>
 </html>
